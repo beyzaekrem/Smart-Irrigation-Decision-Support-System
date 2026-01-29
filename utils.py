@@ -642,8 +642,8 @@ import os
 import json
 from pathlib import Path
 
-# Dataset configuration
-DATASETS_DIR = Path("datasets")  # Change this to your datasets directory
+# Dataset configuration (resolve relative to this file so it works from any cwd)
+DATASETS_DIR = Path(__file__).resolve().parent / "datasets"
 DATASET_CACHE = {}  # In-memory cache for loaded datasets
 
 # GeoJSON drought dataset (SPI index)
@@ -883,9 +883,11 @@ def load_regional_dataset(
     if cache_key in DATASET_CACHE:
         return DATASET_CACHE[cache_key]
     
-    # Define file paths
+    # Define file paths (try main name first, then sample_* fallback)
     csv_path = DATASETS_DIR / f"{dataset_type}.csv"
+    csv_path_sample = DATASETS_DIR / f"sample_{dataset_type}.csv"
     json_path = DATASETS_DIR / f"{dataset_type}.json"
+    json_path_sample = DATASETS_DIR / f"sample_{dataset_type}.json"
     
     df = None
     
@@ -894,12 +896,22 @@ def load_regional_dataset(
         if file_format == "auto":
             if csv_path.exists():
                 df = pd.read_csv(csv_path)
+            elif csv_path_sample.exists():
+                df = pd.read_csv(csv_path_sample)
             elif json_path.exists():
                 df = pd.read_json(json_path)
-        elif file_format == "csv" and csv_path.exists():
-            df = pd.read_csv(csv_path)
-        elif file_format == "json" and json_path.exists():
-            df = pd.read_json(json_path)
+            elif json_path_sample.exists():
+                df = pd.read_json(json_path_sample)
+        elif file_format == "csv":
+            if csv_path.exists():
+                df = pd.read_csv(csv_path)
+            elif csv_path_sample.exists():
+                df = pd.read_csv(csv_path_sample)
+        elif file_format == "json":
+            if json_path.exists():
+                df = pd.read_json(json_path)
+            elif json_path_sample.exists():
+                df = pd.read_json(json_path_sample)
         
         # Cache the result
         if df is not None:
@@ -948,7 +960,7 @@ def find_region_in_dataset(
             if mask.any():
                 return df[mask].iloc[0].to_dict()
         
-        # Try lat/lon match
+        # Try lat/lon match (within tolerance first)
         if "lat" in df.columns and "lon" in df.columns:
             df_filtered = df[
                 (abs(df["lat"] - lat) <= tolerance) &
@@ -956,13 +968,24 @@ def find_region_in_dataset(
             ]
             
             if not df_filtered.empty:
-                # Return closest match
                 df_filtered = df_filtered.copy()
                 df_filtered["_distance"] = (
                     (df_filtered["lat"] - lat) ** 2 +
                     (df_filtered["lon"] - lon) ** 2
                 ) ** 0.5
-                return df_filtered.nsmallest(1, "_distance").iloc[0].to_dict()
+                row = df_filtered.nsmallest(1, "_distance").iloc[0].to_dict()
+                row["_nearest_region"] = False  # exact match within tolerance
+                return row
+            
+            # Fallback: use nearest region in entire dataset so other locations show data
+            df_all = df.copy()
+            df_all["_distance"] = (
+                (df_all["lat"] - lat) ** 2 +
+                (df_all["lon"] - lon) ** 2
+            ) ** 0.5
+            row = df_all.nsmallest(1, "_distance").iloc[0].to_dict()
+            row["_nearest_region"] = True
+            return row
         
     except Exception as e:
         print(f"Warning: Error finding region in dataset: {e}")
@@ -1050,9 +1073,10 @@ def process_water_resources_data(raw_data: Optional[Dict]) -> Dict:
         "water_stress_index": raw_data.get("water_stress_index"),
         "data_source": raw_data.get("data_source", "Regional Water Dataset"),
         "data_available": True,
-        # Additional fields can be added here from dataset
         "last_updated": raw_data.get("last_updated"),
-        "measurement_unit": raw_data.get("measurement_unit", "meters")
+        "measurement_unit": raw_data.get("measurement_unit", "meters"),
+        "nearest_region": raw_data.get("_nearest_region", False),
+        "nearest_region_name": raw_data.get("region_name"),
     }
 
 

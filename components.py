@@ -455,7 +455,7 @@ def get_irrigation_recommendation_text(
 
 
 def render_ai_decision_engine(strategy_data: Dict) -> None:
-    """Render the AI Decision Engine — policy-style strategic advisory."""
+    """Render the AI Decision Engine — main message first, details secondary."""
     strategy_type = strategy_data.get("strategy_type", "recommended")
     strategy_name = strategy_data.get("strategy_name", "Önerilen Strateji")
     recommendation = strategy_data.get("recommendation", "")
@@ -471,67 +471,62 @@ def render_ai_decision_engine(strategy_data: Dict) -> None:
     }
     accent_color, bg_color, icon = strategy_config.get(strategy_type, strategy_config["recommended"])
     
+    # Ana karar: tek cümle, en üstte
+    if strategy_type == "water_saving":
+        main_answer = "Sulama yapmanıza gerek yok"
+        main_sub = "Yağış veya düşük su ihtiyacı nedeniyle şu an sulama önerilmiyor; su tasarrufu sağlanır."
+    elif strategy_type == "risk_aware":
+        main_answer = "Dikkatli sulama yapın"
+        main_sub = "Koşullar elverişli ama hava veya su stresi var; önerilen zamanda ve miktarda sulayın."
+    else:
+        main_answer = "Sulama yapmanız önerilir"
+        main_sub = "Mevcut verilere göre sulama uygun; önerilen saatte sulama yapabilirsiniz."
+    
+    # 1) Ana mesaj — en üstte, büyük ve net
     st.markdown(f"""
     <div style="background: linear-gradient(135deg, {bg_color} 0%, #FFFFFF 100%); 
-                border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem;
-                border-left: 4px solid {accent_color}; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
-        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-            <span style="font-size: 1.75rem;">{icon}</span>
-            <div>
-                <p style="color: #64748B; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.12em; margin: 0; font-weight: 600;">
-                    Stratejik Danışmanlık — Veri Odaklı Öneri
-                </p>
-                <h3 style="color: #0F172A; font-size: 1.2rem; font-weight: 700; margin: 0;">{strategy_name}</h3>
-            </div>
-        </div>
-        <div style="background: white; border-radius: 10px; padding: 1.1rem; border: 1px solid #E2E8F0;">
-            <p style="color: #334155; font-size: 0.95rem; line-height: 1.7; margin: 0;">{recommendation}</p>
-        </div>
+                border-radius: 16px; padding: 1.5rem; margin-bottom: 1rem;
+                border-left: 5px solid {accent_color}; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+        <p style="color: #64748B; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 0 0.5rem 0; font-weight: 600;">
+            Bugünkü karar
+        </p>
+        <h2 style="color: #0F172A; font-size: 1.5rem; font-weight: 800; margin: 0 0 0.35rem 0;">{main_answer}</h2>
+        <p style="color: #475569; font-size: 0.9rem; line-height: 1.5; margin: 0;">{main_sub}</p>
     </div>
     """, unsafe_allow_html=True)
     
-    if reasoning:
-        st.markdown("#### 📋 Politika Gerekçesi")
-        cols = st.columns(2)
-        for i, reason in enumerate(reasoning):
-            with cols[i % 2]:
-                st.markdown(f"""
-                <div style="background: #F8FAFC; border-radius: 8px; padding: 0.75rem; margin-bottom: 0.5rem;
-                            border-left: 3px solid {accent_color};">
-                    <span style="color: #475569; font-size: 0.875rem;">{i+1}. {reason}</span>
-                </div>
-                """, unsafe_allow_html=True)
+    # 2) Kısa özet (strategy name + tek paragraf)
+    st.markdown(f"""
+    <div style="background: white; border-radius: 10px; padding: 1rem; margin-bottom: 1rem; border: 1px solid #E2E8F0;">
+        <p style="color: #64748B; font-size: 0.75rem; font-weight: 600; margin: 0 0 0.35rem 0;">{strategy_name}</p>
+        <p style="color: #334155; font-size: 0.9rem; line-height: 1.6; margin: 0;">{recommendation}</p>
+    </div>
+    """, unsafe_allow_html=True)
     
-    if regional_insights:
-        st.markdown("#### 🌍 Veri Seti Tabanlı Stratejik İstihbarat")
-        for insight in regional_insights:
-            st.markdown(f"""
-            <div style="background: #F0FDF4; padding: 0.5rem 0.75rem; border-radius: 6px; margin-bottom: 0.375rem;
-                        border-left: 3px solid #059669;">
-                <span style="color: #065F46; font-size: 0.8rem;">📊 {insight}</span>
-            </div>
-            """, unsafe_allow_html=True)
-    
-    if action_items:
-        st.markdown("#### ✅ Önerilen Aksiyonlar")
-        for i, action in enumerate(action_items, 1):
-            st.markdown(f"""
-            <div style="background: white; border-radius: 8px; padding: 0.75rem; margin-bottom: 0.5rem;
-                        border: 1px solid #E2E8F0; display: flex; align-items: center; gap: 0.75rem;">
-                <span style="background: {accent_color}; color: white; width: 24px; height: 24px; border-radius: 50%;
-                            display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700;">{i}</span>
-                <span style="color: #475569; font-size: 0.875rem;">{action}</span>
-            </div>
-            """, unsafe_allow_html=True)
+    # 3) Detaylar tek expander içinde
+    with st.expander("📋 Detaylar: gerekçe, veri ve aksiyonlar"):
+        if reasoning:
+            st.markdown("**Politika gerekçesi**")
+            for i, reason in enumerate(reasoning, 1):
+                st.markdown(f"{i}. {reason}")
+            st.markdown("")
+        if regional_insights:
+            st.markdown("**Veri seti tabanlı istihbarat**")
+            for insight in regional_insights:
+                st.markdown(f"• {insight}")
+            st.markdown("")
+        if action_items:
+            st.markdown("**Önerilen aksiyonlar**")
+            for i, action in enumerate(action_items, 1):
+                st.markdown(f"{i}. {action}")
     
     risk_config = {"low": ("Düşük", "#059669"), "medium": ("Orta", "#D97706"), "high": ("Yüksek", "#DC2626")}
     risk_text, risk_color = risk_config.get(weather_risk, ("Bilinmiyor", "#64748B"))
-    
     st.markdown(f"""
-    <div style="margin-top: 1rem; padding: 0.75rem 1rem; background: #F8FAFC; border-radius: 8px; border: 1px solid #E2E8F0;">
+    <div style="margin-top: 0.5rem; padding: 0.5rem 0.75rem; background: #F8FAFC; border-radius: 8px; border: 1px solid #E2E8F0; font-size: 0.8rem;">
         <span style="font-weight: 600; color: #0F172A;">Meteorolojik risk: </span>
-        <span style="background: {risk_color}15; color: {risk_color}; padding: 0.25rem 0.75rem;
-                    border-radius: 6px; font-weight: 700; font-size: 0.75rem;">{risk_text}</span>
+        <span style="background: {risk_color}15; color: {risk_color}; padding: 0.2rem 0.5rem;
+                    border-radius: 6px; font-weight: 700; font-size: 0.7rem;">{risk_text}</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -643,8 +638,8 @@ def render_sustainability_dashboard(metrics: Dict, platform_mode: str) -> None:
 def render_impact_story(platform_mode: str) -> None:
     """Render the Impact Story hero section — policy-grade, emotional, authority."""
     if "Bireysel" in platform_mode:
-        title = "Su Güvenliği ve Verimlilik"
-        subtitle = "Ulusal istihbarat altyapısı ile akıllı sulama kararları. Her damla değerli."
+        title = "Tarlanız için akıllı sulama"
+        subtitle = "Hava ve su ihtiyacınızı görün, doğru zamanda sulayın. Her damla değerli."
         stats = [
             {"value": "%30", "label": "Potansiyel Su Tasarrufu", "icon": "💧"},
             {"value": "ET₀", "label": "Bilimsel Referans", "icon": "📐"},
@@ -773,7 +768,34 @@ def render_regional_intelligence_layer(
     </div>
     """, unsafe_allow_html=True)
     
+    st.markdown(
+        "Bu bölüm, seçtiğiniz bölgedeki **su kaynakları durumu** ve **risk faktörlerini** gösterir. "
+        "Sulama kararlarınızı bölgesel verilere göre daha bilinçli almanız için sunulur."
+    )
+    
     water_resources = regional_intelligence.get("water_resources", {})
+    
+    def _fmt(val):
+        """Show value or fallback; never show literal None."""
+        if val is None:
+            return "—"
+        if isinstance(val, float):
+            return f"{val:.2f}" if 0 <= val <= 1 else f"{val:.1f}"
+        return str(val)
+    
+    groundwater = water_resources.get("groundwater_level")
+    surface_water = water_resources.get("surface_water_availability")
+    water_stress = water_resources.get("water_stress_index")
+    
+    groundwater_display = _fmt(groundwater) if groundwater is not None else "—"
+    surface_water_display = _fmt(surface_water) if surface_water is not None else "—"
+    water_stress_display = _fmt(water_stress) if water_stress is not None else "—"
+    
+    nearest = water_resources.get("nearest_region", False)
+    nearest_name = water_resources.get("nearest_region_name") or ""
+    if nearest and nearest_name:
+        st.caption(f"📍 En yakın bölge verisi: **{nearest_name}**")
+    
     col1, col2, col3 = st.columns(3)
     
     with col1:
@@ -781,7 +803,8 @@ def render_regional_intelligence_layer(
         <div style="background: white; border-radius: 10px; padding: 1rem; border-left: 4px solid #06B6D4;">
             <div style="font-size: 1.25rem; margin-bottom: 0.25rem;">💧</div>
             <div style="font-size: 0.7rem; color: #64748B; text-transform: uppercase;">Yeraltı Su</div>
-            <div style="font-size: 1rem; font-weight: 700; color: #0F172A;">{water_resources.get("groundwater_level", "Bekleniyor")}</div>
+            <div style="font-size: 1rem; font-weight: 700; color: #0F172A;">{groundwater_display}</div>
+            <div style="font-size: 0.65rem; color: #94A3B8;">{water_resources.get("measurement_unit", "m")}</div>
         </div>
         """, unsafe_allow_html=True)
     
@@ -790,7 +813,7 @@ def render_regional_intelligence_layer(
         <div style="background: white; border-radius: 10px; padding: 1rem; border-left: 4px solid #3B82F6;">
             <div style="font-size: 1.25rem; margin-bottom: 0.25rem;">🌊</div>
             <div style="font-size: 0.7rem; color: #64748B; text-transform: uppercase;">Yüzey Suyu</div>
-            <div style="font-size: 1rem; font-weight: 700; color: #0F172A;">{water_resources.get("surface_water_availability", "Bekleniyor")}</div>
+            <div style="font-size: 1rem; font-weight: 700; color: #0F172A;">{surface_water_display}</div>
         </div>
         """, unsafe_allow_html=True)
     
@@ -799,23 +822,39 @@ def render_regional_intelligence_layer(
         <div style="background: white; border-radius: 10px; padding: 1rem; border-left: 4px solid #10B981;">
             <div style="font-size: 1.25rem; margin-bottom: 0.25rem;">📊</div>
             <div style="font-size: 0.7rem; color: #64748B; text-transform: uppercase;">Su Stresi</div>
-            <div style="font-size: 1rem; font-weight: 700; color: #0F172A;">{water_resources.get("water_stress_index", "Bekleniyor")}</div>
+            <div style="font-size: 1rem; font-weight: 700; color: #0F172A;">{water_stress_display}</div>
         </div>
         """, unsafe_allow_html=True)
     
-    # Risk factors
+    with st.expander("📖 Bu veriler ne anlama geliyor? Neden önemli?"):
+        st.markdown("""
+        **💧 Yeraltı Su (metre)**  
+        Bölgedeki yeraltı su seviyesini gösterir. Yüksek değer, kuyu ve yeraltı kaynaklarının daha güvenilir olduğu anlamına gelir. Sulama planı yaparken uzun vadeli su teminini değerlendirmenize yardımcı olur.
+
+        **🌊 Yüzey Suyu (Low / Medium / High)**  
+        Baraj, göl ve akarsulardan yararlanma imkânını özetler. *High* bölgede yüzey suyu bol demektir; *Low* ise yüzey suyuna bağımlılığı azaltıp tasarruf önlemlerini öne çıkarmanız gerektiğini gösterir.
+
+        **📊 Su Stresi İndeksi (0–1)**  
+        Bölgenin su talebi ile arzı arasındaki baskıyı ifade eder. **0’a yakın** = su baskısı düşük, **1’e yakın** = su kıtlığı riski yüksek. Sulama miktarını ve zamanlamasını bu indekse göre ayarlamak verimlilik ve sürdürülebilirlik açısından önemlidir.
+
+        **🎯 Risk Faktörleri**  
+        Meteoroloji, su kaynağı stresi ve yeraltı su seviyesi gibi etkenlerin sulama kararınıza etkisini özetler. *High* risk, daha dikkatli planlama ve tasarruf önlemleri; *Low* risk ise mevcut stratejinizi sürdürebileceğiniz anlamına gelir.
+        """)
+    
+    # Risk factors (explanations only in expander above)
     risk_factors = risk_assessment.get("risk_factors", [])
     if risk_factors:
         st.markdown("#### 🎯 Risk Faktörleri — Dataset Tabanlı")
         for factor in risk_factors[:3]:
             risk_color_map = {"high": "#EF4444", "medium": "#F59E0B", "low": "#10B981", "info": "#3B82F6"}
             factor_color = risk_color_map.get(factor.get("level", "info"), "#64748B")
+            factor_name = factor.get("factor", "")
             
             st.markdown(f"""
             <div style="background: white; border-radius: 8px; padding: 0.75rem; margin-bottom: 0.5rem;
                         border-left: 3px solid {factor_color};">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <span style="font-weight: 600; color: #0F172A; font-size: 0.875rem;">{factor.get("factor", "")}</span>
+                    <span style="font-weight: 600; color: #0F172A; font-size: 0.875rem;">{factor_name}</span>
                     <span style="background: {factor_color}20; color: {factor_color}; padding: 0.125rem 0.5rem;
                                 border-radius: 9999px; font-size: 0.65rem; font-weight: 700;">{factor.get("level", "").upper()}</span>
                 </div>
