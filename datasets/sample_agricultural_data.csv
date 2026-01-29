@@ -1,0 +1,17 @@
+region_name,lat,lon,crop_yield_trend,irrigation_coverage,farmer_adoption_rate,dominant_crop,total_agricultural_area,data_source,last_updated
+Konya,37.87,32.49,Stable,78.5,32.1,Wheat,2150000,TUIK Agricultural Statistics,2025-01-28
+Konya İli,37.87,32.49,Stable,78.5,32.1,Wheat,2150000,TUIK Agricultural Statistics,2025-01-28
+Ankara,39.93,32.86,Increasing,65.2,41.5,Barley,950000,TUIK Agricultural Statistics,2025-01-28
+İstanbul,41.01,28.97,Stable,45.8,55.2,Vegetables,125000,TUIK Agricultural Statistics,2025-01-28
+İzmir,38.42,27.13,Increasing,82.3,48.7,Grapes,680000,TUIK Agricultural Statistics,2025-01-28
+Antalya,36.90,30.70,Increasing,91.5,52.3,Tomatoes,520000,TUIK Agricultural Statistics,2025-01-28
+Bursa,40.19,29.06,Stable,72.1,44.8,Peaches,380000,TUIK Agricultural Statistics,2025-01-28
+Adana,37.00,35.32,Stable,85.6,38.9,Cotton,890000,TUIK Agricultural Statistics,2025-01-28
+Gaziantep,37.07,37.38,Decreasing,52.4,22.1,Pistachios,420000,TUIK Agricultural Statistics,2025-01-28
+Kayseri,38.73,35.48,Stable,58.9,35.6,Sugar Beet,310000,TUIK Agricultural Statistics,2025-01-28
+Mersin,36.80,34.63,Increasing,88.2,46.3,Citrus,480000,TUIK Agricultural Statistics,2025-01-28
+Eskişehir,39.78,30.52,Stable,61.5,39.4,Wheat,580000,TUIK Agricultural Statistics,2025-01-28
+Diyarbakır,37.91,40.22,Decreasing,38.7,15.2,Wheat,920000,TUIK Agricultural Statistics,2025-01-28
+Samsun,41.29,36.33,Increasing,55.8,42.1,Hazelnuts,340000,TUIK Agricultural Statistics,2025-01-28
+Denizli,37.77,29.09,Stable,68.4,36.8,Cotton,410000,TUIK Agricultural Statistics,2025-01-28
+Şanlıurfa,37.16,38.79,Decreasing,42.1,12.5,Cotton,1180000,TUIK Agricultural Statistics,2025-01-28

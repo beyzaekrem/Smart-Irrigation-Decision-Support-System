@@ -1,0 +1,17 @@
+region_name,lat,lon,spi_index,drought_severity,historical_trend,data_source,forecast_period,last_updated
+Konya,37.87,32.49,-1.2,Moderate,Worsening,MGM Drought Monitor,3-month,2025-01-28
+Konya İli,37.87,32.49,-1.2,Moderate,Worsening,MGM Drought Monitor,3-month,2025-01-28
+Ankara,39.93,32.86,0.5,None,Stable,MGM Drought Monitor,3-month,2025-01-28
+İstanbul,41.01,28.97,0.8,None,Improving,MGM Drought Monitor,3-month,2025-01-28
+İzmir,38.42,27.13,-0.3,None,Stable,MGM Drought Monitor,3-month,2025-01-28
+Antalya,36.90,30.70,1.2,None,Improving,MGM Drought Monitor,3-month,2025-01-28
+Bursa,40.19,29.06,0.2,None,Stable,MGM Drought Monitor,3-month,2025-01-28
+Adana,37.00,35.32,-0.8,Mild,Stable,MGM Drought Monitor,3-month,2025-01-28
+Gaziantep,37.07,37.38,-1.8,Severe,Worsening,MGM Drought Monitor,3-month,2025-01-28
+Kayseri,38.73,35.48,-0.5,None,Stable,MGM Drought Monitor,3-month,2025-01-28
+Mersin,36.80,34.63,0.3,None,Stable,MGM Drought Monitor,3-month,2025-01-28
+Eskişehir,39.78,30.52,-0.1,None,Stable,MGM Drought Monitor,3-month,2025-01-28
+Diyarbakır,37.91,40.22,-2.1,Extreme,Worsening,MGM Drought Monitor,3-month,2025-01-28
+Samsun,41.29,36.33,1.5,None,Improving,MGM Drought Monitor,3-month,2025-01-28
+Denizli,37.77,29.09,-0.6,Mild,Stable,MGM Drought Monitor,3-month,2025-01-28
+Şanlıurfa,37.16,38.79,-2.3,Extreme,Worsening,MGM Drought Monitor,3-month,2025-01-28

@@ -1,0 +1,3675 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 175,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.068600000000004.32.864899999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.864876,
+          36.068614
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17320,
+        "last1month": 0.37,
+        "last3month": 0.26,
+        "last6month": -0.52,
+        "last12month": -1.77,
+        "last24month": -1.12,
+        "last9month": -3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.236837000000001.36.132911999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.132912,
+          36.236837
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17372,
+        "last1month": -1.03,
+        "last3month": -1.31,
+        "last6month": -0.73,
+        "last12month": -3.28,
+        "last24month": -1.47,
+        "last9month": -3.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.271500000000003.32.304499999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.307564,
+          36.274682
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17974,
+        "last1month": -0.45,
+        "last3month": -0.66,
+        "last6month": 0.25,
+        "last12month": -1.17,
+        "last24month": -0.67,
+        "last9month": -2.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.302399999999999.30.145800000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1458,
+          36.3024
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17375,
+        "last1month": 0.19,
+        "last3month": -0.15,
+        "last6month": 0.17,
+        "last12month": -0.67,
+        "last24month": -1.27,
+        "last9month": -1.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.382399999999997.33.9373",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.936707,
+          36.382073
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17330,
+        "last1month": -0.18,
+        "last3month": -0.55,
+        "last6month": -0.63,
+        "last12month": -1.99,
+        "last24month": -1.42,
+        "last9month": -3.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.550699999999999.31.9803",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.979822,
+          36.54999
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17310,
+        "last1month": -0.31,
+        "last3month": -0.61,
+        "last6month": 0.11,
+        "last12month": -0.81,
+        "last24month": -0.66,
+        "last9month": -2.63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.592399999999998.36.158200000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.158158,
+          36.592358
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17370,
+        "last1month": 0.24,
+        "last3month": -0.3,
+        "last6month": -1.33,
+        "last12month": -2.87,
+        "last24month": -0.95,
+        "last9month": -3.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.626800000000003.29.123899999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.123804,
+          36.626611
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17296,
+        "last1month": 1.13,
+        "last3month": 1.03,
+        "last6month": 1.39,
+        "last12month": -0.69,
+        "last24month": -1.03,
+        "last9month": -1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.626800000000003.34.338000000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.337989,
+          36.6268
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17958,
+        "last1month": -0.31,
+        "last3month": -1.13,
+        "last6month": -1.83,
+        "last12month": -1.39,
+        "last24month": -1.48,
+        "last9month": -3.03
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.707799999999999.27.691700000000001",
+      "geometry": null,
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17922,
+        "last1month": 0.32,
+        "last3month": 0.18,
+        "last6month": 1.81,
+        "last12month": 0.41,
+        "last24month": -0.04,
+        "last9month": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.708435999999999.37.112022000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.112022,
+          36.708436
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17262,
+        "last1month": -0.25,
+        "last3month": -0.89,
+        "last6month": -0.69,
+        "last12month": -2.94,
+        "last24month": -1.64,
+        "last9month": -2.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.737200000000001.29.912099999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9121,
+          36.737244
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17952,
+        "last1month": 0.06,
+        "last3month": -0.17,
+        "last6month": 0.16,
+        "last12month": -0.82,
+        "last24month": -2.13,
+        "last9month": -1.97
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.768700000000003.35.790300000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.790249,
+          36.770142
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17979,
+        "last1month": -0.84,
+        "last3month": -0.36,
+        "last6month": 0.23,
+        "last12month": -2.28,
+        "last24month": -1.67,
+        "last9month": -1.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.780799999999999.34.603099999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.603055,
+          36.780827
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17340,
+        "last1month": -0.52,
+        "last3month": -1.04,
+        "last6month": -1.78,
+        "last12month": -1.41,
+        "last24month": -1.52,
+        "last9month": -3.07
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.789499999999997.31.440999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.441166,
+          36.789767
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17954,
+        "last1month": -0.52,
+        "last3month": -1.03,
+        "last6month": 0.67,
+        "last12month": -1.07,
+        "last24month": -1.44,
+        "last9month": -2.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.839500000000001.28.245200000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.244995,
+          36.83926
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17298,
+        "last1month": 0.02,
+        "last3month": -0.13,
+        "last6month": 1.25,
+        "last12month": 0.53,
+        "last24month": -0.73,
+        "last9month": -0.55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.906300000000002.30.798999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.792222,
+          36.888028
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17300,
+        "last1month": -0.84,
+        "last3month": -1.41,
+        "last6month": -0.3,
+        "last12month": -1.63,
+        "last24month": -0.94,
+        "last9month": -1.68
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.969999999999999.28.686900000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.686868,
+          36.970007
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17924,
+        "last1month": 0.47,
+        "last3month": 0.17,
+        "last6month": 1.66,
+        "last12month": -0.29,
+        "last24month": -1.66,
+        "last9month": -0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.36.9893.32.4557",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.45648,
+          36.988552
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17928,
+        "last1month": -1,
+        "last3month": -0.26,
+        "last6month": -1.01,
+        "last12month": -2.06,
+        "last24month": -1.81,
+        "last9month": -2.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.004100000000001.35.344299999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3443,
+          37.0041
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17351,
+        "last1month": -0.74,
+        "last3month": -1.32,
+        "last6month": -1.79,
+        "last12month": -2.21,
+        "last24month": -1.66,
+        "last9month": -3.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.032800000000002.27.439800000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.439801,
+          37.032839
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17290,
+        "last1month": 0.3,
+        "last3month": 0.19,
+        "last6month": 1.32,
+        "last12month": 0.02,
+        "last24month": -0.54,
+        "last9month": -0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.0565.30.190999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.190784,
+          37.056412
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17926,
+        "last1month": -0.86,
+        "last3month": -2.58,
+        "last6month": -0.19,
+        "last12month": -0.07,
+        "last24month": -0.7,
+        "last9month": -1.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.058500000000002.37.350999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.351,
+          37.0585
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17261,
+        "last1month": -0.54,
+        "last3month": 0.14,
+        "last6month": -0.81,
+        "last12month": -2.84,
+        "last24month": -1.22,
+        "last9month": -2.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.1021.36.253900000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.253939,
+          37.102111
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17355,
+        "last1month": 0.63,
+        "last3month": 0.32,
+        "last6month": -0.02,
+        "last12month": -2.06,
+        "last24month": -1.04,
+        "last9month": -1.62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.160800000000002.38.786299999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.786723,
+          37.160455
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17270,
+        "last1month": 0.12,
+        "last3month": -0.39,
+        "last6month": -1.24,
+        "last12month": -2.72,
+        "last24month": -1.79,
+        "last9month": -2.14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.193199999999997.33.220199999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.220167,
+          37.193167
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17246,
+        "last1month": 1,
+        "last3month": 0.28,
+        "last6month": -0.63,
+        "last12month": -1.79,
+        "last24month": -1.04,
+        "last9month": -2.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.209499999999998.28.366800000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.366834,
+          37.209486
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17292,
+        "last1month": -0.15,
+        "last3month": -0.89,
+        "last6month": 1.58,
+        "last12month": -0.19,
+        "last24month": -0.58,
+        "last9month": -0.91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.302500000000002.27.7807",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.780668,
+          37.302584
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17884,
+        "last1month": 0.36,
+        "last3month": 0.06,
+        "last6month": 1.83,
+        "last12month": 0.25,
+        "last24month": -0.21,
+        "last9month": -0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.310299999999998.40.728400000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.728004,
+          37.310445
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17275,
+        "last1month": 0.12,
+        "last3month": -0.47,
+        "last6month": -0.6,
+        "last12month": -2.63,
+        "last24month": -1.16,
+        "last9month": -2.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.331546000000003.42.210351000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.210308,
+          37.331478
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17950,
+        "last1month": 0.25,
+        "last3month": -0.18,
+        "last6month": -1.21,
+        "last12month": -3.08,
+        "last24month": -1.28,
+        "last9month": -3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.339500000000001.28.136900000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.136864,
+          37.339542
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17886,
+        "last1month": 0.04,
+        "last3month": -0.78,
+        "last6month": 0.73,
+        "last12month": -1.32,
+        "last24month": -2,
+        "last9month": -1.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.433700000000002.35.818800000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.820196,
+          37.433743
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17908,
+        "last1month": -1.35,
+        "last3month": -1.58,
+        "last6month": -2.08,
+        "last12month": -1.68,
+        "last24month": -2.02,
+        "last9month": -1.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.525500000000001.34.048499999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0485,
+          37.5255
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17248,
+        "last1month": -0.55,
+        "last3month": -0.28,
+        "last6month": -1.35,
+        "last12month": -1.44,
+        "last24month": -1.78,
+        "last9month": -1.81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.548000000000002.34.486699999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.486667,
+          37.548
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17906,
+        "last1month": -0.89,
+        "last3month": -0.67,
+        "last6month": -1.08,
+        "last12month": -2.11,
+        "last24month": -1.21,
+        "last9month": -2.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.565800000000003.32.789999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.79,
+          37.565833
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17900,
+        "last1month": -0.34,
+        "last3month": -1.19,
+        "last6month": -0.96,
+        "last12month": -1.7,
+        "last24month": -1.69,
+        "last9month": -2.21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.5745.43.738799999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.738833,
+          37.5745
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17285,
+        "last1month": -0.4,
+        "last3month": -1.19,
+        "last6month": 0.49,
+        "last12month": -1.44,
+        "last24month": 0.11,
+        "last9month": -1.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.576000000000001.36.914999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.915,
+          37.576
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17255,
+        "last1month": -0.06,
+        "last3month": -0.35,
+        "last6month": -0.56,
+        "last12month": -2.86,
+        "last24month": -2.23,
+        "last9month": -2.82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.677700000000002.31.746300000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.746333,
+          37.677667
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17242,
+        "last1month": -1.14,
+        "last3month": -0.71,
+        "last6month": 0.19,
+        "last12month": -1.57,
+        "last24month": -1.88,
+        "last9month": -1.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.71631.33.526000000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5256,
+          37.7153
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17902,
+        "last1month": 0.3,
+        "last3month": 0.47,
+        "last6month": -0.64,
+        "last12month": -2.46,
+        "last24month": -1.34,
+        "last9month": -2.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.722000000000001.30.294",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.293968,
+          37.721988
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17238,
+        "last1month": 1.01,
+        "last3month": 0.74,
+        "last6month": 0.75,
+        "last12month": -0.36,
+        "last24month": -0.46,
+        "last9month": -0.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.755299999999998.38.277500000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2775,
+          37.755333
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17265,
+        "last1month": -0.29,
+        "last3month": -0.63,
+        "last6month": -0.92,
+        "last12month": -2.09,
+        "last24month": -0.8,
+        "last9month": -1.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.762.29.092099999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.092075,
+          37.762028
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17237,
+        "last1month": 0.31,
+        "last3month": 0.93,
+        "last6month": 1.53,
+        "last12month": -0.69,
+        "last24month": -1.35,
+        "last9month": -0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.784799999999997.30.567900000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.566723,
+          37.785101
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17240,
+        "last1month": -0.32,
+        "last3month": -0.05,
+        "last6month": 1,
+        "last12month": -0.89,
+        "last24month": -1.21,
+        "last9month": -0.77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.837699999999998.30.872",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.872013,
+          37.837671
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17882,
+        "last1month": -0.7,
+        "last3month": -0.94,
+        "last6month": 0.16,
+        "last12month": -1.5,
+        "last24month": -1.36,
+        "last9month": -2.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.840200000000003.27.837900000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.837297,
+          37.84088
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17234,
+        "last1month": 0.08,
+        "last3month": -0.38,
+        "last6month": 0.81,
+        "last12month": -0.72,
+        "last24month": -1.04,
+        "last9month": -1.04
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.859699999999997.27.2652",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.265216,
+          37.859742
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17232,
+        "last1month": 0.24,
+        "last3month": 0.06,
+        "last6month": 0.46,
+        "last12month": -1.04,
+        "last24month": -1.41,
+        "last9month": -1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.863599999999998.41.156199999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.154466,
+          37.863094
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17282,
+        "last1month": -0.4,
+        "last3month": -0.34,
+        "last6month": -0.49,
+        "last12month": -2.24,
+        "last24month": -0.9,
+        "last9month": -2.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.884300000000003.28.150400000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.150364,
+          37.884002
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17850,
+        "last1month": 0.35,
+        "last3month": -0.26,
+        "last6month": 0.76,
+        "last12month": -0.49,
+        "last24month": -1.07,
+        "last9month": -1.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.897300000000001.40.2027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.208431,
+          37.881104
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17280,
+        "last1month": -0.15,
+        "last3month": -0.15,
+        "last6month": 0.15,
+        "last12month": -1.27,
+        "last24month": -0.27,
+        "last9month": -1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.913499999999999.28.343699999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.343292,
+          37.913424
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17860,
+        "last1month": 0.91,
+        "last3month": 0.22,
+        "last6month": 1.05,
+        "last12month": -0.27,
+        "last24month": -0.83,
+        "last9month": -0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.931899999999999.41.935400000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.935389,
+          37.931903
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17210,
+        "last1month": -0.36,
+        "last3month": -1.11,
+        "last6month": -0.68,
+        "last12month": -2.02,
+        "last24month": -1.02,
+        "last9month": -2.04
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.942300000000003.27.366900000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3669,
+          37.9423
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17854,
+        "last1month": 0.15,
+        "last3month": -0.09,
+        "last6month": -0.02,
+        "last12month": -1.91,
+        "last24month": -1.64,
+        "last9month": -2.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.958500000000001.34.679499999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6795,
+          37.9585
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17250,
+        "last1month": -1.11,
+        "last3month": 0.31,
+        "last6month": -0.78,
+        "last12month": -2.15,
+        "last24month": -1.41,
+        "last9month": -1.72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.37.983699999999999.32.573999999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.553926,
+          37.968664
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17244,
+        "last1month": 0.06,
+        "last3month": -0.18,
+        "last6month": -0.68,
+        "last12month": -1.88,
+        "last24month": -1.13,
+        "last9month": -1.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.043500000000002.44.017299999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.017333,
+          38.0435
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17880,
+        "last1month": 0.99,
+        "last3month": -0.98,
+        "last6month": -0.1,
+        "last12month": -1.43,
+        "last24month": -0.37,
+        "last9month": -0.97
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.059699999999999.30.153099999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.153078,
+          38.059742
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17862,
+        "last1month": -1.14,
+        "last3month": -2.46,
+        "last6month": -1.55,
+        "last12month": -2.29,
+        "last24month": -1.36,
+        "last9month": -2.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.085999999999999.30.458200000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.458162,
+          38.086048
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17864,
+        "last1month": -0.16,
+        "last3month": -1,
+        "last6month": -0.64,
+        "last12month": -1.63,
+        "last24month": -1.95,
+        "last9month": -2.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.104700000000001.30.557700000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.557828,
+          38.104969
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17826,
+        "last1month": -0.02,
+        "last3month": -0.09,
+        "last6month": -0.5,
+        "last12month": -1.89,
+        "last24month": -2.31,
+        "last9month": -2.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.151499999999999.29.058700000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.058709,
+          38.151509
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17824,
+        "last1month": 0.52,
+        "last3month": 0.43,
+        "last6month": 1.2,
+        "last12month": -0.86,
+        "last24month": -2.05,
+        "last9month": -0.58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.193060000000003.26.840969999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.840446,
+          38.192065
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17820,
+        "last1month": 0.76,
+        "last3month": 0.61,
+        "last6month": 1.15,
+        "last12month": -0.21,
+        "last24month": -0.55,
+        "last9month": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.215699999999998.27.964200000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.963887,
+          38.215539
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17822,
+        "last1month": 0.1,
+        "last3month": -0.44,
+        "last6month": 0.62,
+        "last12month": -0.85,
+        "last24month": -0.66,
+        "last9month": -1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.240499999999997.36.918999999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.919,
+          38.2405
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17868,
+        "last1month": 1.05,
+        "last3month": 0.57,
+        "last6month": 0.71,
+        "last12month": -1.39,
+        "last24month": -1.61,
+        "last9month": -0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.267000000000003.39.765999999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.775465,
+          38.27165
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17847,
+        "last1month": -0.04,
+        "last3month": -0.76,
+        "last6month": -0.36,
+        "last12month": -1.84,
+        "last24month": -0.63,
+        "last9month": -1.78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.276299999999999.31.893999999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.894,
+          38.276333
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17832,
+        "last1month": 0.86,
+        "last3month": 0.38,
+        "last6month": -0.54,
+        "last12month": -1.69,
+        "last24month": -1.22,
+        "last9month": -1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.296300000000002.43.119700000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.119667,
+          38.296333
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17852,
+        "last1month": -0.22,
+        "last3month": -1.25,
+        "last6month": -1.27,
+        "last12month": -2.06,
+        "last24month": -0.35,
+        "last9month": -2.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.303600000000003.26.372399999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.372882,
+          38.303858
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17221,
+        "last1month": 0.21,
+        "last3month": -0.09,
+        "last6month": 1.4,
+        "last12month": 0.22,
+        "last24month": 0.44,
+        "last9month": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.3367.38.217300000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.217333,
+          38.336667
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17199,
+        "last1month": -0.84,
+        "last3month": -1.42,
+        "last6month": -0.18,
+        "last12month": -1.33,
+        "last24month": -0.42,
+        "last9month": -0.73
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.3688.31.4297",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.429667,
+          38.368833
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17239,
+        "last1month": 0.78,
+        "last3month": 0.86,
+        "last6month": 0.21,
+        "last12month": -1.85,
+        "last24month": -2.31,
+        "last9month": -1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.3705.33.998699999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9987,
+          38.3705
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17192,
+        "last1month": 0.02,
+        "last3month": -0.72,
+        "last6month": -0.69,
+        "last12month": -1.99,
+        "last24month": -1.01,
+        "last9month": -2.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.374400000000001.35.479700000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.479706,
+          38.374429
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17836,
+        "last1month": -0.96,
+        "last3month": -0.96,
+        "last6month": -1.12,
+        "last12month": -1.96,
+        "last24month": -1.58,
+        "last9month": -1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.392400000000002.39.675699999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.675655,
+          38.392371
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17846,
+        "last1month": 0.2,
+        "last3month": -0.35,
+        "last6month": 0.15,
+        "last12month": -1.14,
+        "last24month": -0.04,
+        "last9month": -1.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.394500000000001.27.082100000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0821,
+          38.3945
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17220,
+        "last1month": 0.22,
+        "last3month": -0.04,
+        "last6month": -0.22,
+        "last12month": -1.52,
+        "last24month": -1.09,
+        "last9month": -1.61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.450699999999998.39.310099999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.310373,
+          38.450828
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17844,
+        "last1month": -0.12,
+        "last3month": -0.42,
+        "last6month": 0.29,
+        "last12month": -1.02,
+        "last24month": -0.32,
+        "last9month": -0.6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.469299999999997.43.345999999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.346005,
+          38.469147
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17172,
+        "last1month": 0.46,
+        "last3month": 0.02,
+        "last6month": -0.92,
+        "last12month": -2.38,
+        "last24month": 0.4,
+        "last9month": -2.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.475000000000001.42.162500000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.1625,
+          38.475
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17208,
+        "last1month": -0.21,
+        "last3month": -0.18,
+        "last6month": 0.59,
+        "last12month": -1.63,
+        "last24month": -0.96,
+        "last9month": -1.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.478099999999998.36.503500000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.503531,
+          38.478136
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17840,
+        "last1month": -1.23,
+        "last3month": -0.25,
+        "last6month": -0.58,
+        "last12month": -2.11,
+        "last24month": -1.69,
+        "last9month": -1.94
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.4831.28.1234",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.123585,
+          38.482797
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17792,
+        "last1month": 0.43,
+        "last3month": -0.2,
+        "last6month": -0.19,
+        "last12month": -1.14,
+        "last24month": -1.64,
+        "last9month": -1.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.615299999999998.27.404900000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.404941,
+          38.615329
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17186,
+        "last1month": 0.66,
+        "last3month": 0.18,
+        "last6month": -1.26,
+        "last12month": -1.83,
+        "last24month": -1.8,
+        "last9month": -2.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.616300000000003.34.702500000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.702483,
+          38.616324
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17193,
+        "last1month": 1.09,
+        "last3month": 0.91,
+        "last6month": 1,
+        "last12month": 0.15,
+        "last24month": 0.24,
+        "last9month": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.6218.34.914400000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.914686,
+          38.621767
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17835,
+        "last1month": 0.02,
+        "last3month": 1,
+        "last6month": 0.21,
+        "last12month": -1.4,
+        "last24month": -0.58,
+        "last9month": -0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.644300000000001.39.256100000000004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.25605,
+          38.6443
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17201,
+        "last1month": -0.1,
+        "last3month": -0.46,
+        "last6month": 0.08,
+        "last12month": -0.15,
+        "last24month": 1.14,
+        "last9month": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.650578000000003.32.921860000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.92186,
+          38.650578
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17191,
+        "last1month": 1.31,
+        "last3month": 1.5,
+        "last6month": 0.43,
+        "last12month": -1.5,
+        "last24month": -0.76,
+        "last9month": -1.02
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.671233000000001.29.404039999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.403955,
+          38.671125
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17188,
+        "last1month": 0.57,
+        "last3month": 0.38,
+        "last6month": 0.84,
+        "last12month": -0.78,
+        "last24month": -0.49,
+        "last9month": -0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.686999999999998.35.5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.500029,
+          38.689465
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17196,
+        "last1month": -0.44,
+        "last3month": -0.94,
+        "last6month": -0.86,
+        "last12month": -0.9,
+        "last24month": -0.5,
+        "last9month": -0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.6907.39.926000000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.932616,
+          38.696133
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17806,
+        "last1month": -0.2,
+        "last3month": -0.17,
+        "last6month": 0.07,
+        "last12month": -0.87,
+        "last24month": 0.91,
+        "last9month": -0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.726799999999997.31.047699999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.048314,
+          38.726742
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17796,
+        "last1month": 0.15,
+        "last3month": 0.55,
+        "last6month": 1.36,
+        "last12month": -0.8,
+        "last24month": -1.61,
+        "last9month": -0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.738.30.560400000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.560374,
+          38.738019
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17190,
+        "last1month": 0.14,
+        "last3month": 0.67,
+        "last6month": 0.66,
+        "last12month": -0.25,
+        "last24month": -0.43,
+        "last9month": -0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.750900000000001.41.502299999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.501747,
+          38.750226
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17204,
+        "last1month": -0.82,
+        "last3month": -1.01,
+        "last6month": 0.04,
+        "last12month": -1.44,
+        "last24month": -0.61,
+        "last9month": -1.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.794699999999999.38.744199999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7365,
+          38.7972
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17804,
+        "last1month": -0.5,
+        "last3month": -0.05,
+        "last6month": 0.12,
+        "last12month": -1.02,
+        "last24month": 0.19,
+        "last9month": -0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.884700000000002.40.500700000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.50107,
+          38.885402
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17203,
+        "last1month": -0.59,
+        "last3month": -1.06,
+        "last6month": 0.3,
+        "last12month": -1.19,
+        "last24month": -0.37,
+        "last9month": -0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.911799999999999.27.8233",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.823009,
+          38.911407
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17184,
+        "last1month": 0.33,
+        "last3month": -0.21,
+        "last6month": -1.17,
+        "last12month": -1.75,
+        "last24month": -1.38,
+        "last9month": -2.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.941299999999998.38.718200000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.718167,
+          38.941333
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17766,
+        "last1month": -0.02,
+        "last3month": -0.65,
+        "last6month": -0.04,
+        "last12month": -1.07,
+        "last24month": -0.18,
+        "last9month": -0.62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.959699999999998.41.0503",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.050337,
+          38.966364
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17776,
+        "last1month": -0.69,
+        "last3month": -1.34,
+        "last6month": -1.11,
+        "last12month": -1.87,
+        "last24month": -1.09,
+        "last9month": -1.83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.38.994700000000002.29.400300000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.400269,
+          38.994715
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17750,
+        "last1month": 0.92,
+        "last3month": -0.33,
+        "last6month": -2.55,
+        "last12month": -2.17,
+        "last24month": -1.85,
+        "last9month": -2.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.009799999999998.31.1463",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.146335,
+          39.009766
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17752,
+        "last1month": 0.23,
+        "last3month": 0.25,
+        "last6month": -0.22,
+        "last12month": -2.13,
+        "last24month": -2.99,
+        "last9month": -1.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.019799999999996.43.3386",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.338167,
+          39.019667
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17784,
+        "last1month": -0.8,
+        "last3month": -1.51,
+        "last6month": -1.18,
+        "last12month": -1.85,
+        "last24month": -0.88,
+        "last9month": -1.77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.040100000000002.38.917700000000004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.917454,
+          39.041097
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17768,
+        "last1month": -0.5,
+        "last3month": -1.12,
+        "last6month": -0.28,
+        "last12month": -1.27,
+        "last24month": -0.67,
+        "last9month": -0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.073700000000002.26.888000000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.887984,
+          39.07372
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17180,
+        "last1month": 0.48,
+        "last3month": 0.24,
+        "last6month": -0.2,
+        "last12month": -1.62,
+        "last24month": -1.26,
+        "last9month": -1.66
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.078800000000001.33.0657",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.065667,
+          39.078833
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17754,
+        "last1month": 0.13,
+        "last3month": -0.54,
+        "last6month": -1.83,
+        "last12month": -3.66,
+        "last24month": -2.67,
+        "last9month": -3.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.092500000000001.28.9786",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.991853,
+          39.1252
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17748,
+        "last1month": -0.33,
+        "last3month": -1.07,
+        "last6month": -1.55,
+        "last12month": -2.33,
+        "last24month": -2.3,
+        "last9month": -2.59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.105800000000002.39.540799999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.545686,
+          39.109686
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17165,
+        "last1month": -0.25,
+        "last3month": 0.44,
+        "last6month": 0.15,
+        "last12month": -1.06,
+        "last24month": -0.48,
+        "last9month": -0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.1098.27.170999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.17097,
+          39.10976
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17742,
+        "last1month": 0.66,
+        "last3month": 0.13,
+        "last6month": -0.96,
+        "last12month": -2.19,
+        "last24month": -1.84,
+        "last9month": -2.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.163933999999998.34.156098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.155929,
+          39.164372
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17160,
+        "last1month": 1.11,
+        "last3month": 0.39,
+        "last6month": -0.83,
+        "last12month": -2.74,
+        "last24month": -1.63,
+        "last9month": -2.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.242800000000003.37.389000000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.389,
+          39.242833
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17762,
+        "last1month": -1.07,
+        "last3month": -1.81,
+        "last6month": -1.06,
+        "last12month": -1.63,
+        "last24month": -0.7,
+        "last9month": -1.31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.311300000000003.26.6861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.686103,
+          39.311252
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17175,
+        "last1month": 0.93,
+        "last3month": 0,
+        "last6month": -0.75,
+        "last12month": -1.74,
+        "last24month": -1.29,
+        "last9month": -1.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.365200000000002.33.706400000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.706403,
+          39.365242
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17756,
+        "last1month": -0.03,
+        "last3month": -0.59,
+        "last6month": -0.33,
+        "last12month": -1.79,
+        "last24month": -1.33,
+        "last9month": -1.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.417099999999998.29.989100000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.989066,
+          39.417144
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17155,
+        "last1month": 0.27,
+        "last3month": -0.77,
+        "last6month": -1.15,
+        "last12month": -2.56,
+        "last24month": -2.22,
+        "last9month": -2.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.445500000000003.31.527799999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.527817,
+          39.445544
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17973,
+        "last1month": 0.41,
+        "last3month": 0.03,
+        "last6month": -0.31,
+        "last12month": -1.6,
+        "last24month": -0.95,
+        "last9month": -1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.4983.26.9755",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.975134,
+          39.498186
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17722,
+        "last1month": 0,
+        "last3month": -0.61,
+        "last6month": -0.74,
+        "last12month": -1.76,
+        "last24month": -1.69,
+        "last9month": -1.28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.583399999999997.32.162399999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.162669,
+          39.583667
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17728,
+        "last1month": 0.28,
+        "last3month": 0.57,
+        "last6month": -0.14,
+        "last12month": -1.89,
+        "last24month": -2.38,
+        "last9month": -1.69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.589500000000001.27.019200000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.01915,
+          39.58947
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17145,
+        "last1month": -0.01,
+        "last3month": -0.56,
+        "last6month": -1.21,
+        "last12month": -1.97,
+        "last24month": -1.1,
+        "last9month": -1.7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.606699999999996.34.423499999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.423823,
+          39.606393
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17732,
+        "last1month": -0.04,
+        "last3month": -0.94,
+        "last6month": -1.76,
+        "last12month": -2.51,
+        "last24month": -1.3,
+        "last9month": -2.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.632599999999996.27.920100000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.921574,
+          39.608296
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17150,
+        "last1month": -0.14,
+        "last3month": -0.56,
+        "last6month": -0.87,
+        "last12month": -1.07,
+        "last24month": -0.66,
+        "last9month": -1.18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.649999999999999.43.020000000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.055301,
+          39.730166
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17099,
+        "last1month": 0.31,
+        "last3month": -0.8,
+        "last6month": 0.1,
+        "last12month": -0.41,
+        "last24month": 0.77,
+        "last9month": -0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.743699999999997.37.002000000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.002,
+          39.743667
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17090,
+        "last1month": -0.88,
+        "last3month": -1.59,
+        "last6month": -0.31,
+        "last12month": -1.92,
+        "last24month": -1.77,
+        "last9month": -1.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.752299999999998.39.486800000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.486753,
+          39.751406
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17094,
+        "last1month": -0.6,
+        "last3month": -0.33,
+        "last6month": 0.49,
+        "last12month": -0.11,
+        "last24month": 0.55,
+        "last9month": 0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.811900000000001.30.528700000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.505033,
+          39.808967
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17123,
+        "last1month": -0.29,
+        "last3month": -1.21,
+        "last6month": -1.8,
+        "last12month": -2.34,
+        "last24month": -1.76,
+        "last9month": -2.13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.824300000000001.34.815899999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.815914,
+          39.824342
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17140,
+        "last1month": 0.54,
+        "last3month": -0.16,
+        "last6month": -0.34,
+        "last12month": -1.79,
+        "last24month": -0.75,
+        "last9month": -1.59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.843299999999999.33.518099999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.51807,
+          39.843304
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17135,
+        "last1month": 1.12,
+        "last3month": 0.51,
+        "last6month": -0.02,
+        "last12month": -1.73,
+        "last24month": -2.05,
+        "last9month": -1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.9039.30.052499999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.05302,
+          39.903961
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17702,
+        "last1month": -0.62,
+        "last3month": -2.18,
+        "last6month": -2.06,
+        "last12month": -1.81,
+        "last24month": -1.34,
+        "last9month": -2.16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.922699999999999.44.052300000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.05372,
+          39.925912
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17100,
+        "last1month": 0.02,
+        "last3month": -0.48,
+        "last6month": 0.79,
+        "last12month": 0.44,
+        "last24month": 0.82,
+        "last9month": 0.42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.9529.41.189700000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.189571,
+          39.954419
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17096,
+        "last1month": 0.17,
+        "last3month": 0.11,
+        "last6month": 1.24,
+        "last12month": 0.99,
+        "last24month": 2.46,
+        "last9month": 0.81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.955800000000004.32.685400000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.676587,
+          39.953995
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17129,
+        "last1month": 0.56,
+        "last3month": -0.17,
+        "last6month": -0.85,
+        "last12month": -2.46,
+        "last24month": -1.81,
+        "last9month": -2.34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.39.972700000000003.32.863700000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.863952,
+          39.972351
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17130,
+        "last1month": 0.72,
+        "last3month": 1.15,
+        "last6month": 1.25,
+        "last12month": -0.61,
+        "last24month": -0.07,
+        "last9month": -0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.113500000000002.27.642600000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.642436,
+          40.113984
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17674,
+        "last1month": -0.37,
+        "last3month": -0.9,
+        "last6month": -0.59,
+        "last12month": -1.7,
+        "last24month": -0.32,
+        "last9month": -1.97
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.140999999999998.26.3993",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.399616,
+          40.141428
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17112,
+        "last1month": -0.47,
+        "last3month": -1.09,
+        "last6month": -1.18,
+        "last12month": -2.42,
+        "last24month": -1.3,
+        "last9month": -2.7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.141399999999997.29.9772",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.97724,
+          40.141393
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17120,
+        "last1month": -0.21,
+        "last3month": -1.54,
+        "last6month": -1.93,
+        "last12month": -1.63,
+        "last24month": -1.05,
+        "last9month": -2.15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.160800000000002.31.917200000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.917687,
+          40.160887
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17680,
+        "last1month": 0.04,
+        "last3month": 0.27,
+        "last6month": -0.35,
+        "last12month": -1.56,
+        "last24month": -1.52,
+        "last9month": -1.76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.173299999999998.31.332000000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.332033,
+          40.17333
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17679,
+        "last1month": -0.1,
+        "last3month": 0,
+        "last6month": 0.22,
+        "last12month": -0.17,
+        "last24month": 0.08,
+        "last9month": -0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.230800000000002.29.013300000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.013413,
+          40.231243
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17116,
+        "last1month": -0.37,
+        "last3month": -1.15,
+        "last6month": -2.16,
+        "last12month": -1.67,
+        "last24month": -0.68,
+        "last9month": -2.15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.2547.40.220700000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.220742,
+          40.254664
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17089,
+        "last1month": 0.48,
+        "last3month": -0.15,
+        "last6month": -0.14,
+        "last12month": 0.28,
+        "last24month": 1.02,
+        "last9month": -0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.287199999999999.38.4193",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.419333,
+          40.287167
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17682,
+        "last1month": 0.38,
+        "last3month": -0.5,
+        "last6month": -0.11,
+        "last12month": -1.21,
+        "last24month": -0.93,
+        "last9month": -0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.331200000000003.36.557699999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.557667,
+          40.331167
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17086,
+        "last1month": 0.42,
+        "last3month": -0.35,
+        "last6month": -0.54,
+        "last12month": -1.09,
+        "last24month": -1.33,
+        "last9month": -1.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.459800000000001.39.465299999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.465422,
+          40.460237
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17088,
+        "last1month": 0.54,
+        "last3month": 0.49,
+        "last6month": 0.33,
+        "last12month": -0.31,
+        "last24month": 0.55,
+        "last9month": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.486061999999997.40.999566000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.999566,
+          40.486062
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17666,
+        "last1month": 0.77,
+        "last3month": 0.31,
+        "last6month": 1.05,
+        "last12month": 1.78,
+        "last24month": 1.8,
+        "last9month": 1.26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.5214.30.295999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.296135,
+          40.520995
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17662,
+        "last1month": -0.51,
+        "last3month": -1.91,
+        "last6month": -2.71,
+        "last12month": -2.63,
+        "last24month": -2.29,
+        "last9month": -2.65
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.546100000000003.34.936199999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.936221,
+          40.546117
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17084,
+        "last1month": 0.61,
+        "last3month": -0.03,
+        "last6month": -0.59,
+        "last12month": -2.01,
+        "last24month": -1.25,
+        "last9month": -1.63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.606059000000002.43.111877999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.111878,
+          40.606059
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17097,
+        "last1month": 0.28,
+        "last3month": -0.96,
+        "last6month": -0.46,
+        "last12month": -0.85,
+        "last24month": 0.05,
+        "last9month": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.608199999999997.33.610199999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.610231,
+          40.608167
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17080,
+        "last1month": 0.76,
+        "last3month": -0.56,
+        "last6month": -0.39,
+        "last12month": -1.69,
+        "last24month": -1.01,
+        "last9month": -1.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.642699999999998.29.106300000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.106033,
+          40.642068
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17658,
+        "last1month": -0.32,
+        "last3month": -1.38,
+        "last6month": -1.43,
+        "last12month": -1.5,
+        "last24month": -0.46,
+        "last9month": -1.56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.660344000000002.29.286629999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.28663,
+          40.660344
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17119,
+        "last1month": -0.36,
+        "last3month": -1.13,
+        "last6month": -1.86,
+        "last12month": -1.86,
+        "last24month": -0.87,
+        "last9month": -2.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.666800000000002.35.835299999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.835333,
+          40.666833
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17085,
+        "last1month": 0.92,
+        "last3month": 0.08,
+        "last6month": -0.54,
+        "last12month": -1.09,
+        "last24month": -0.55,
+        "last9month": -1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.732900000000001.31.6022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.601786,
+          40.733676
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17070,
+        "last1month": 0.68,
+        "last3month": -0.28,
+        "last6month": -0.7,
+        "last12month": -0.56,
+        "last24month": -0.45,
+        "last9month": -1.33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.766300000000001.29.917300000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.917347,
+          40.766325
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17066,
+        "last1month": 0.07,
+        "last3month": -1.21,
+        "last6month": -1.82,
+        "last12month": -1.68,
+        "last24month": -1.46,
+        "last9month": -1.39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.767600000000002.30.3934",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.393831,
+          40.767231
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17069,
+        "last1month": 0.47,
+        "last3month": -1.08,
+        "last6month": -1.96,
+        "last12month": -1.41,
+        "last24month": -1.24,
+        "last9month": -1.55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.843699999999998.31.148800000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.148755,
+          40.843664
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17072,
+        "last1month": 0.58,
+        "last3month": -0.93,
+        "last6month": -1.64,
+        "last12month": -0.47,
+        "last24month": -0.14,
+        "last9month": -1.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.879300000000001.35.458500000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4585,
+          40.879333
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17083,
+        "last1month": 2.6,
+        "last3month": 1.5,
+        "last6month": 2.94,
+        "last12month": 2.4,
+        "last24month": 3.09,
+        "last9month": 2.43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.887300000000003.26.908000000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.907969,
+          40.887309
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17634,
+        "last1month": -1.02,
+        "last3month": -2.61,
+        "last6month": -2.22,
+        "last12month": -3.1,
+        "last24month": -2.07,
+        "last9month": -2.64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.915599999999998.33.625799999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.625782,
+          40.915633
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17648,
+        "last1month": -0.54,
+        "last3month": -2.05,
+        "last6month": -1.61,
+        "last12month": -2.05,
+        "last24month": -1.14,
+        "last9month": -2.62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.922699999999999.38.387799999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.387833,
+          40.922667
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17034,
+        "last1month": 0.11,
+        "last3month": -0.49,
+        "last6month": -0.02,
+        "last12month": -0.05,
+        "last24month": -0.35,
+        "last9month": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.958500000000001.27.496500000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.496181,
+          40.957959
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17056,
+        "last1month": -0.49,
+        "last3month": -0.87,
+        "last6month": -1.57,
+        "last12month": -2.57,
+        "last24month": -1.62,
+        "last9month": -2.48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.9758.28.7865",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.786531,
+          40.975837
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17636,
+        "last1month": -0.72,
+        "last3month": -1.93,
+        "last6month": -1.71,
+        "last12month": -1.58,
+        "last24month": -0.98,
+        "last9month": -1.64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.978700000000003.34.801099999999998",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.800848,
+          40.979171
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17652,
+        "last1month": -0.44,
+        "last3month": -0.88,
+        "last6month": -1.48,
+        "last12month": -1.59,
+        "last24month": -1.17,
+        "last9month": -1.66
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.983800000000002.37.885800000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.885833,
+          40.983833
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17033,
+        "last1month": 1.72,
+        "last3month": 0.49,
+        "last6month": 0.53,
+        "last12month": 0.32,
+        "last24month": -0.42,
+        "last9month": 0.37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.40.994999999999997.39.783000000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.779248,
+          40.999133
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17038,
+        "last1month": 0.85,
+        "last3month": 0.35,
+        "last6month": 0.79,
+        "last12month": 0.58,
+        "last24month": 1.11,
+        "last9month": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.032499999999999.39.561500000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5615,
+          41.0325
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17626,
+        "last1month": 0,
+        "last3month": -1.6,
+        "last6month": -0.31,
+        "last12month": 0.34,
+        "last24month": 0.85,
+        "last9month": 0.17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.039999999999999.40.501300000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.501333,
+          41.04
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17040,
+        "last1month": 0.65,
+        "last3month": -0.92,
+        "last6month": -0.74,
+        "last12month": 0.37,
+        "last24month": 0.13,
+        "last9month": -0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.089500000000001.31.1374",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.143039,
+          41.089528
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17015,
+        "last1month": -0.11,
+        "last3month": -1.69,
+        "last6month": -1.94,
+        "last12month": -0.62,
+        "last24month": -0.14,
+        "last9month": -1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.106099999999998.42.705500000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.705547,
+          41.106092
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17046,
+        "last1month": 0.97,
+        "last3month": -0.18,
+        "last6month": -0.05,
+        "last12month": -0.12,
+        "last24month": 0.75,
+        "last9month": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.143000000000001.37.292999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.292821,
+          41.143221
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17624,
+        "last1month": 1.01,
+        "last3month": -0.05,
+        "last6month": -0.21,
+        "last12month": -0.54,
+        "last24month": -0.24,
+        "last9month": -0.25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.1464.29.0502",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.050201,
+          41.146515
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17061,
+        "last1month": -0.23,
+        "last3month": -1.38,
+        "last6month": -1.41,
+        "last12month": -1.23,
+        "last24month": -0.65,
+        "last9month": -1.07
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.175199999999997.41.8187",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.818667,
+          41.175167
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17045,
+        "last1month": 1.98,
+        "last3month": 1.11,
+        "last6month": 0.55,
+        "last12month": 1.04,
+        "last24month": 1.6,
+        "last9month": -0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.1798.27.815999999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.816013,
+          41.179781
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17054,
+        "last1month": -0.65,
+        "last3month": -1.78,
+        "last6month": -2.02,
+        "last12month": -2.57,
+        "last24month": -2.08,
+        "last9month": -2.61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.204445999999997.32.632828000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.632828,
+          41.204446
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17078,
+        "last1month": 0.93,
+        "last3month": -0.45,
+        "last6month": -1.21,
+        "last12month": -1.03,
+        "last24month": -0.02,
+        "last9month": -2.09
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.250500000000002.29.038399999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.038367,
+          41.25047
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17059,
+        "last1month": 0.09,
+        "last3month": -0.7,
+        "last6month": -0.42,
+        "last12month": -2.46,
+        "last24month": -1.93,
+        "last9month": -1.77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.272599999999997.26.7056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.705622,
+          41.272568
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17608,
+        "last1month": -1.19,
+        "last3month": -2,
+        "last6month": -0.98,
+        "last12month": -2.19,
+        "last24month": -2.15,
+        "last9month": -1.55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.344166999999999.36.256388999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.255794,
+          41.344286
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17030,
+        "last1month": 2.17,
+        "last3month": 1.58,
+        "last6month": 1.92,
+        "last12month": 1.58,
+        "last24month": 0.74,
+        "last9month": 1.68
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.371000000000002.33.775599999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.77561,
+          41.370966
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17074,
+        "last1month": 0.51,
+        "last3month": -0.94,
+        "last6month": -1.56,
+        "last12month": -1.46,
+        "last24month": -1.09,
+        "last9month": -1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.406500000000001.41.433",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.433,
+          41.4065
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17042,
+        "last1month": 0.8,
+        "last3month": -0.33,
+        "last6month": -0.65,
+        "last12month": 1.18,
+        "last24month": 2.06,
+        "last9month": -0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.449241999999998.31.777916999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.778335,
+          41.449334
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17022,
+        "last1month": -0.1,
+        "last3month": -1.72,
+        "last6month": -1.78,
+        "last12month": 0.17,
+        "last24month": 0.58,
+        "last9month": -1.41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.6248.32.356900000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.356753,
+          41.624681
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17020,
+        "last1month": 0.14,
+        "last3month": -1.38,
+        "last6month": -1.32,
+        "last12month": 0.38,
+        "last24month": 0.93,
+        "last9month": -1.11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.676699999999997.26.550799999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.550838,
+          41.676694
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17050,
+        "last1month": -0.9,
+        "last3month": -1.42,
+        "last6month": -1.42,
+        "last12month": -1.55,
+        "last24month": -1.92,
+        "last9month": -1.61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.738199999999999.27.2178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.217845,
+          41.738155
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17052,
+        "last1month": -1.14,
+        "last3month": -0.78,
+        "last6month": -1.06,
+        "last12month": -1.87,
+        "last24month": -1.16,
+        "last9month": -1.53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.41.978900000000003.33.763599999999997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.762945,
+          41.978937
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17024,
+        "last1month": -0.2,
+        "last3month": -0.52,
+        "last6month": -0.66,
+        "last12month": 0.97,
+        "last24month": 0.7,
+        "last9month": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spikuraklikindeks.42.029899999999998.35.154499999999999",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15447,
+          42.029916
+        ]
+      },
+      "geometry_name": "point",
+      "properties": {
+        "istno": 17026,
+        "last1month": 0.29,
+        "last3month": -0.59,
+        "last6month": -0.71,
+        "last12month": -0.12,
+        "last24month": 0.83,
+        "last9month": -0.59
+      }
+    }
+  ]
+}
